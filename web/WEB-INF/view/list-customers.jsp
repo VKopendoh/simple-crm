@@ -4,6 +4,8 @@
 <html>
 <head>
     <title>list costumers</title>
+
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"/>
 </head>
 <body>
     <div id="wrapper">
@@ -31,7 +33,5 @@
 
         </div>
     </div>
-
-LIST CUSTOMERS!!!!
 </body>
 </html>

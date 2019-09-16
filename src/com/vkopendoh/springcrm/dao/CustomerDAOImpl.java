@@ -20,7 +20,6 @@ public class CustomerDAOImpl implements CustomerDAO {
 
 
     @Override
-    @Transactional
     public List<Customer> getCustomers() {
         //get hibernate session
         Session session = sessionFactory.getCurrentSession();
